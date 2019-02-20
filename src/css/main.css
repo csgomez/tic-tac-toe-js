@@ -1,0 +1,18 @@
+#board {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 1px solid;
+    line-height: 80px;
+
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -ms-user-select: none; /* IE10+ */
+}

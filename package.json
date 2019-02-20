@@ -1,0 +1,27 @@
+{
+    "name": "tic-tac-toe-js",
+    "version": "0.0.1",
+    "description": "Simple tic-tac-toe implementation following an MVC design pattern using vanilla/es6 javascript",
+    "author": "Cesar Gomez",
+    "devDependencies": {
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3"
+    },
+    "dependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run clean && npm run build:dev",
+        "build:dev": "$(npm bin)/webpack --mode development --config webpack.config.js",
+        "clean": "rm -rf ./dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/csgomez/tic-tac-toe-js.git"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/csgomez/tic-tac-toe-js/issues"
+    },
+    "homepage": "https://github.com/csgomez/tic-tac-toe-js#readme"
+}
